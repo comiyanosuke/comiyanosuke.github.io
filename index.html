@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Corp.</title>
+  <meta name="description" content="デイトラ中級編最終課題の架空会社です。">
+
+  <!-- reset css -->
+  <link rel="stylesheet" href="./css/destyle.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+  <!-- swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- original -->
+  <link rel="stylesheet" href="./css/style_refactoring.css">
+</head>
+
+
+<body>
+  <header id="js_header" class="ly_header">
+    <div class="ly_header_inner is_pc">
+      <nav>
+        <ul class="bl_headerNav is_pc">
+          <li><a class="bl_headerNav_link" href="#news">News</a></li>
+          <li><a class="bl_headerNav_link" href="#service">Service</a></li>
+          <li><a class="bl_headerNav_link" href="#results">Results</a></li>
+          <li><a class="bl_headerNav_link" href="#price">Price</a></li>
+          <li><a class="bl_headerNav_link" href="#comments">Comments</a></li>
+          <li><a class="bl_headerNav_link" href="#faq">FAQs</a></li>
+          <li><a class="bl_headerNav_link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /.ly_header_inner -->
+
+
+    <h1 class="el_headerLogo is_sp">Sample Corp.</h1>
+
+    <div id="js_drawerIcon" class="el_drawerIcon">
+      <div class="el_drawerIcon_bars">
+        <div class="el_drawerIcon_bar"></div>
+        <div class="el_drawerIcon_bar2"></div>
+        <div class="el_drawerIcon_bar3"></div>
+      </div>
+    </div>
+    <nav id="js_drawerNav" class="bl_drawerNav">
+      <ul class="bl_drawerNav_inner">
+        <li><a class="bl_drawerNav_link js_drawerNav_link" href="#news">News</a></li>
+        <li><a class="bl_drawerNav_link js_drawerNav_link" href="#service">Service</a></li>
+        <li><a class="bl_drawerNav_link js_drawerNav_link" href="#results">Results</a></li>
+        <li><a class="bl_drawerNav_link js_drawerNav_link" href="#faq">FAQs</a></li>
+        <li><a class="bl_drawerNav_link js_drawerNav_link" href="#price">Price</a></li>
+        <li><a class="bl_drawerNav_link js_drawerNav_link" href="#comments">Comments</a></li>
+        <li><a class="bl_drawerNav_link js_drawerNav_link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="js_overlay" class="el_backgroundOverlay"></div>
+
+  </header>
+  <main>
+    <div class="bl_jumbotron" style="background-image: url(./img/mv.png)">
+      <div class="bl_jumbotron_inner">
+        <div class="bl_jumbotron_cont">
+          <p class="bl_jumbotron_ttl">詩が生れて、画が出来る。<br>
+            とかくに人の世は住みにくい。</p>
+          <p class="bl_jumbotron_txt">どこへ越しても住みにくいと悟った時、詩が生れて、<br class="is_sp">画が出来る。意地を通せば窮屈だ。</p>
+
+          <a class="el_btn" href="#contact">お問い合わせしてみる</a>
+        </div><!-- /.bl_jumbotron_cont -->
+      </div><!-- /.bl_jumbotron_inner -->
+    </div><!-- /.bl_jumbotron -->
+
+    <section id="news" class="ly_sect ly_news">
+      <div class="ly_news_inner">
+        <h2 class="el_lv2Heading">News</h2>
+        <ul class="bl_vertPosts">
+          <li class="bl_vertPosts_item bl_vertPosts_item__first">
+            <article>
+              <a href="#" class="bl_vertPosts_link bl_vertPosts_link__first">
+                <div class="bl_vertPosts_header">
+                  <time class="bl_vertPosts_date bl_vertPosts_date__first" datetime="2019-02-01">2019-02-01</time>
+                  <span class="el_label el_label__first">テキスト</span>
+                </div>
+                <div class="bl_vertPosts_ttl bl_vertPosts_ttl__first">
+                  ニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュースニュース
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="bl_vertPosts_item">
+            <article>
+              <a href="#" class="bl_vertPosts_link bl_vertPosts_link__2nd">
+                <div class="bl_vertPosts_header bl_vertPosts_header__2nd">
+                  <time class="bl_vertPosts_date" datetime="2019-02-01">2019-02-01</time>
+                  <span class="el_label el_label__2nd">テキスト</span>
+                </div>
+                <div class="bl_vertPosts_ttl">
+                  ニュースニュースニュースニュースニュースニュースニュース
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="bl_vertPosts_item">
+            <article>
+              <a href="#" class="bl_vertPosts_link bl_vertPosts_link__3rd">
+                <div class="bl_vertPosts_header">
+                  <time class="bl_vertPosts_date" datetime="2019-02-01">2019-02-01</time>
+                  <span class="el_label">テキスト</span>
+                </div>
+                <div class="bl_vertPosts_ttl">
+                  ニュースニュースニュースニュースニュースニュースニュース
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul><!-- /.bl_vertPosts -->
+        <div class="ly_news_footer">
+          <a href="" class="el_btnRect">MORE</a>
+        </div>
+      </div><!-- /.ly_news_inner -->
+    </section><!-- /.ly_news -->
+
+
+    <section id="service" class="ly_sect ly_service">
+      <h2 class="el_lv2Heading">Service</h2>
+      <div class="bl_cardUnit bl_cardUnit__sCol3">
+        <div class="bl_sCard">
+          <figure class="bl_sCard_imgWrapper bl_sCard_imgWrapper__first">
+            <img src="./img/service1.svg" alt="web design">
+          </figure>
+          <div class="bl_sCard_body bl_sCard_body__first">
+            <h3 class="bl_sCard_ttl">WEB<br>DESIGN</h3>
+            <p class="bl_sCard_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+            </p>
+          </div>
+        </div>
+        <div class="bl_sCard">
+          <figure class="bl_sCard_imgWrapper">
+            <img src="./img/service2.svg" alt="web coding">
+          </figure>
+          <div class="bl_sCard_body">
+            <h3 class="bl_sCard_ttl">WEB<br>CODING</h3>
+            <p class="bl_sCard_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+            </p>
+          </div>
+        </div>
+        <div class="bl_sCard">
+          <figure class="bl_sCard_imgWrapper">
+            <img src="./img/service3.svg" alt="cms customize">
+          </figure>
+          <div class="bl_sCard_body">
+            <h3 class="bl_sCard_ttl">CMS<br>CUSTOMIZE</h3>
+            <p class="bl_sCard_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- .bl_cardUnit.bl_cardUnit__sCol3 -->
+    </section>
+
+    <section id="results" class="ly_results ly_sect">
+      <h2 class="el_lv2Heading">Results</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <a href="" class="bl_card">
+              <figure class="bl_card_imgWrapper">
+                <img src="./img/slide1.png" alt="slide picture">
+              </figure>
+              <div class="bl_card_body">
+                <h3 class="bl_card_ttl">とかくに人の世は住みにくい。</h3>
+                <div class="bl_card_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="" class="bl_card">
+              <figure class="bl_card_imgWrapper">
+                <img src="./img/slide1.png" alt="slide picture">
+              </figure>
+              <div class="bl_card_body">
+                <h3 class="bl_card_ttl">とかくに人の世は住みにくい。</h3>
+                <div class="bl_card_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="" class="bl_card">
+              <figure class="bl_card_imgWrapper">
+                <img src="./img/slide1.png" alt="slide picture">
+              </figure>
+              <div class="bl_card_body">
+                <h3 class="bl_card_ttl">とかくに人の世は住みにくい。</h3>
+                <div class="bl_card_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="" class="bl_card">
+              <figure class="bl_card_imgWrapper">
+                <img src="./img/slide1.png" alt="slide picture">
+              </figure>
+              <div class="bl_card_body">
+                <h3 class="bl_card_ttl">とかくに人の世は住みにくい。</h3>
+                <div class="bl_card_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="" class="bl_card">
+              <figure class="bl_card_imgWrapper">
+                <img src="./img/slide1.png" alt="slide picture">
+              </figure>
+              <div class="bl_card_body">
+                <h3 class="bl_card_ttl">とかくに人の世は住みにくい。</h3>
+                <div class="bl_card_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="" class="bl_card">
+              <figure class="bl_card_imgWrapper">
+                <img src="./img/slide1.png" alt="slide picture">
+              </figure>
+              <div class="bl_card_body">
+                <h3 class="bl_card_ttl">とかくに人の世は住みにくい。</h3>
+                <div class="bl_card_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
+              </div>
+            </a>
+          </div><!-- /.swiper-slide -->
+        </div><!-- /.swiper-wrapper -->
+      </div><!-- /.wiper-container  -->
+      <div class="swiper-pagination ly_results__pagination"></div>
+      <div class="bl_results_footer">
+        <a href="" class="el_btnRect el_btnRect__dark">VIEW ALL</a>
+      </div>
+    </section><!-- /.ly_results -->
+
+    <section id="price" class="ly_price ly_sect">
+      <h2 class="el_lv2Heading">Price</h2>
+      <div class="bl_table-horizTable">
+        <table>
+          <tbody>
+            <tr>
+              <th>row 1</th>
+              <td>Price ¥10,000</td>
+            </tr>
+            <tr>
+              <th>row 2</th>
+              <td>Price ¥10,000</td>
+            </tr>
+            <tr>
+              <th>row 3</th>
+              <td>Price ¥10,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div><!-- /.bl_table-horizTable-->
+      <p class="el_note">※ 上記料金はサンプルです。</p>
+    </section>
+    <!-- /.ly_price -->
+
+    <div class="ly_bgWrapper">
+      <section id="comments" class="ly_comments ly_sect">
+        <div class="ly_comments_inner">
+          <div class="bl_comments_cont">
+            <h2 class="el_lv2Heading">Comments</h2>
+            <ul class="bl_comments_mediaUnit">
+              <li>
+                <div class="bl_media">
+                  <figure class="bl_media_imgWrapper">
+                    <img src="./img/comments1.png" alt="commentator1">
+                  </figure>
+                  <div class="bl_media_body">
+                    <div class="bl_media_txt">
+                      どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+                    </div>
+                  </div>
+                </div>
+                <!-- /.bl_media -->
+              </li>
+              <li>
+                <div class="bl_media">
+                  <figure class="bl_media_imgWrapper">
+                    <img src="./img/comments2.png" alt="commentator2">
+                  </figure>
+                  <div class="bl_media_body">
+                    <div class="bl_media_txt">
+                      どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。
+                    </div>
+                  </div>
+                </div>
+                <!-- /.bl_media -->
+              </li>
+            </ul>
+            <!-- /.bl_mediaUnit -->
+          </div>
+          <!-- /.bl_comments-cont -->
+          <figure class="el_img is_pc">
+            <img src="./img/comments3.png" alt="イメージ">
+          </figure>
+        </div><!-- /.bl_comments_inner -->
+      </section>
+      <!-- /.ly_comments -->
+
+      <section id="faq" class="ly_faq ly_sect">
+        <div class="ly_faq_inner">
+          <h2 class="el_lv2Heading">Q&A</h2>
+          <dl class="bl_accordion">
+            <div class="bl_accordion_item">
+              <dt>
+                <button type="button" class="bl_accordion_btn bl_accordion_btn__1st js_accordion_btn">
+                  <span class="bl_faq_icon">Q</span>
+                  <span class="bl_faq_q_text">
+                    質問質問質問？
+                  </span>
+                </button>
+              </dt>
+              <dd class="bl_accordion_body" style="display:block">
+                <p class="bl_accordion_txt">
+                  回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+                </p>
+              </dd>
+            </div><!-- /.accordion_item -->
+
+            <div class="bl_accordion_item bl_accordion__item2">
+              <dt>
+                <button type="button" class="bl_accordion_btn js_accordion_btn">
+                  <span class="bl_faq_icon">Q</span>
+                  <span class="bl_faq_q_text">
+                    質問質問質問？<br>
+                    また、質問は質問質問？
+                  </span>
+                </button>
+              </dt>
+              <dd class="bl_accordion_body bl_accordion_body__2nd" style="display:block">
+                <p class="bl_accordion_txt">
+                  回答回答回答回答回答回答回答回答回答回答回答回答
+                </p>
+              </dd>
+            </div><!-- /.accordion_item -->
+            <div class="bl_accordion_item">
+              <dt>
+                <button type="button" class="bl_accordion_btn js_accordion_btn">
+                  <span class="bl_faq_icon">Q</span>
+                  <span class="bl_faq_q_text">
+                    質問質問質問？
+                  </span>
+                </button>
+              </dt>
+              <dd class="bl_accordion_body">
+                <div class="bl_accordion_txt">
+                  回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答
+                </div>
+              </dd>
+            </div><!-- /.accordion_item -->
+
+            <div class="bl_accordion_item">
+              <dt>
+                <button type="button" class="bl_accordion_btn js_accordion_btn">
+                  <span class="bl_faq_icon">Q</span>
+                  <span class="bl_faq_q_text">
+                    質問質問質問？
+                  </span>
+                </button>
+              </dt>
+              <dd class="bl_accordion_body">
+                <p class="bl_accordion_txt">
+                  回答回答回答回答回答回答回答回答回答回答回答
+                </p>
+              </dd>
+            </div><!-- /.accordion_item -->
+            <div class="bl_accordion_item">
+              <dt>
+                <button type="button" class="bl_accordion_btn js_accordion_btn">
+                  <span class="bl_faq_icon">Q</span>
+                  <span class="bl_faq_q_text">
+                    質問質問質問？
+                  </span>
+                </button>
+              </dt>
+              <dd class="bl_accordion_body">
+                <p class="bl_accordion_txt">
+                  回答回答回答回答回答回答回答回答回答回答回答
+                </p>
+              </dd>
+            </div><!-- /.accordion_item -->
+            <div class="bl_accordion_item">
+              <dt>
+                <button type="button" class="bl_accordion_btn js_accordion_btn">
+                  <span class="bl_faq_icon">Q</span>
+                  <span class="bl_faq_q_text">
+                    質問質問質問？
+                  </span>
+                </button>
+              </dt>
+              <dd class="bl_accordion_body">
+                <p class="bl_accordion_txt">
+                  回答回答回答回答回答回答回答回答回答回答回答
+                </p>
+              </dd>
+            </div><!-- /.accordion_item -->
+          </dl>
+        </div><!-- /.ly_faq_inner -->
+      </section>
+      <!-- /.ly_faq -->
+
+      <section class="ly_access ly_sect">
+        <div class="ly_access_inner">
+          <div class="bl_access_cont">
+            <h2 class="el_lv2Heading">Access</h2>
+            <div class="bl_access_address">
+              〒106-6126<br>
+              東京都港区六本木 6丁目 10-1<br>
+              六本木ヒルズ森タワー
+            </div>
+            <div class="bl_access_btn is_pc">
+              <a href="https://goo.gl/maps/GnuywsBo8ooD8i3j7" class="el_btnRect el_btnRect__dark" target="_blank">Google
+                Maps</a>
+            </div>
+          </div><!-- /.ly_access_cont -->
+          <div class="bl_map">
+            <div class="bl_inframe_wrapper">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.670603019294!2d139.7274529663759!3d35.66048643019936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b828453ffff%3A0xb8603beeb9b150d8!2z5YWt5pys5pyo44OS44Or44K6IOajruOCv-ODr-ODvA!5e0!3m2!1sja!2sjp!4v1626767583665!5m2!1sja!2sjp"
+                width="726" height="520" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <!-- /.bl_inframe_wrapper -->
+          </div>
+          <!-- /.bl_map -->
+          <div class="bl_access_btn is_sp">
+            <a href="https://goo.gl/maps/GnuywsBo8ooD8i3j7" class="el_btnRect el_btnRect__dark" target="_blank">Google
+              Maps</a>
+          </div>
+        </div><!-- /.ly_access_inner -->
+      </section><!-- /.ly_access -->
+    </div><!-- /.ly_bgWrapper -->
+
+    <section id="contact" class="ly_contact ly_sect">
+      <div class="ly_contact_inner">
+        <div class="bl_contact_header">
+          <h2 class="el_lv2Heading">Contact Us</h2>
+          <p class="bl_contact_header_txt">どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。</p>
+        </div><!-- /.bl_contact_header -->
+
+        <div class="bl_contact_body">
+          <form id="js_contactForm" method="post"
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfMLHfLMMzuCVGBcKwpiTiXVbkToeGLhJk8vZYZ4oUF6a-q5g/formResponse">
+            <dl class="bl_contact_list">
+              <div class="bl_contact_item bl_contact_item__selectBox">
+                <dt class="bl_contact_itemTtl bl_contact_itemTtl__inquiry"><label for="inquiryType">お問い合わせ種別</label>
+                </dt>
+                <dd class="el_contact_selectBox">
+                  <select name="entry.1276970949" id="inquiryType">
+                    <option hidden>選択してください</option>
+                    <option value="サービス内容について">サービス内容</option>
+                    <option value="料金について">料金</option>
+                    <option value="アフターサービスについて">アフターサービス</option>
+                  </select>
+                </dd>
+              </div><!-- /セレクトボックス -->
+
+              <div class="bl_contact_item bl_contact_item__name">
+                <dt class="bl_contact_itemTtl bl_contact_itemTtl__name"><label for="yourName">氏名</label><span
+                    class="el_requiredLabel">必須</span>
+                </dt>
+                <dd class="el_contact_inputBox">
+                  <input type="text" id="yourName" class="el_input" placeholder="氏名" name="entry.1218422884" required>
+                  <span class="el_input_focusLine"></span><!-- /.el_inputBox_underline -->
+                </dd>
+              </div><!-- /氏名-->
+
+              <div class="bl_contact_item bl_contact_item__kana">
+                <dt class="bl_contact_itemTtl"><label for="kana">フリガナ</label><span class="el_requiredLabel">必須</span>
+                </dt>
+                <dd class="el_contact_inputBox">
+                  <input type="text" id="kana" class="el_input" placeholder="フリガナ" name="entry.971943510" required>
+                  <span class="el_input_focusLine"></span><!-- /.el_inputBox_underline -->
+                </dd>
+              </div><!-- /フリガナ-->
+
+              <div class="bl_contact_item bl_contact_item__email">
+                <dt class="bl_contact_itemTtl"><label for="yourEmail">メールアドレス</label></dt>
+                <dd class="el_contact_inputBox">
+                  <input type="email" id="yourEmail" class="el_input" placeholder="sample@gmail.com"
+                    name="emailAddress">
+                  <span class="el_input_focusLine"></span><!-- /.el_inputBox_underline -->
+                </dd>
+              </div><!-- /email-->
+
+              <div class="bl_contact_item bl_contact_item__radio">
+                <dt class="bl_contact_itemTtl bl_contact_itemTtl__radio">性別</dt>
+                <dd class="bl_contact_radioUnit">
+                  <label class="el_inputRadio">
+                    <input type="radio" name="entry.476520903" value="男性" checked>
+                    <span class="el_radio_part">男性</span>
+                  </label>
+                  <label class="el_inputRadio">
+                    <input type="radio" name="entry.476520903" value="女性">
+                    <span class="el_radio_part">女性</span>
+                  </label>
+                </dd>
+              </div><!-- /ラジオボタン-->
+
+              <div>
+                <dt class="bl_contact_itemTtl bl_contact_itemTtl__textarea"><label for="yourMessage">メッセージ</label></dt>
+                <dd class="el_contact_textarea">
+                  <textarea name="entry.1915977733" id="yourMessage"></textarea>
+                </dd>
+              </div><!-- /textarea-->
+            </dl>
+
+            <div>
+              <label class="bl_contact_privacy">
+                <input type="checkbox" class="bl_contact_privacy_input" name="entry.1140479545" value="プライバシーポリシーの同意"
+                  required>
+                <span class="bl_contact_privacy_part">個人情報保護方針に同意する</span>
+              </label>
+            </div><!-- /チェックボックス-->
+            <div class="bl_contact_btnWrapper">
+              <button type="submit" id="js_submit" class="el_btn el_btn__submit" type="submit" disabled>送信する
+              </button>
+            </div><!-- /.bl_contact_btnWrapper -->
+          </form>
+          <div id="js_success" class="el_contact_message">
+            <p>送信完了しました。ありがとうございました。</p>
+          </div>
+          <div id="js_error" class="el_contact_message el_contact_message_error">
+            <p>送信に失敗しました。ページを更新して再度送信してください。</p>
+          </div>
+        </div><!-- /.bl_contact_body -->
+      </div><!-- /.contact_inner -->
+    </section><!-- /.ly_contact -->
+
+  </main>
+
+  <footer class="ly_footer">
+    <div class="ly_footer_inner">
+      <nav class="bl_footer_nav">
+        <ul class="bl_snsUnit">
+          <li class="bl_footer_sns">
+            <a href="https://twitter.com" target="_blank" aria-label="twitter">
+              <i class="fab fa-twitter hp_faSize"></i>
+            </a>
+          </li>
+          <li class="bl_footer_sns">
+            <a href="https://www.facebook.com" target="_blank" aria-label="facebook">
+              <i class="fab fa-facebook-square hp_faSize hp_faSize__FB"></i>
+            </a>
+          </li>
+        </ul><!-- /.bl_snsUnit-->
+        <ul class="bl_footer_navList">
+          <li>
+            <a href="" class="bl_footer_navList_item">サイトマップ</a>
+          </li>
+          <li>
+            <a href="" class="bl_footer_navList_item">個人情報保護方針</a>
+          </li>
+          <li>
+            <a href="" class="bl_footer_navList_item">プライバシーポリシー</a>
+          </li>
+        </ul><!-- /.bl_footer_navList-->
+      </nav><!-- /.bl_footer_nav-->
+
+
+      <div class="bl_footer_company">
+
+        <h1 class="el_logo"><a href="#">Sample Corp.</a></h1>
+        <p class="el_copyright">&copy; デイトラ Landing page Sample.</p>
+      </div>
+      <!-- /.ly_footer_r -->
+
+    </div>
+  </footer>
+
+  <div class="el_toTop">
+    <a href="#"><img src="./img/totop.png" alt="トップへ戻る"></a>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <script src="./js/script_refactoring.js"></script>
+
+</body>
+
+</html>
