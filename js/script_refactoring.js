@@ -57,11 +57,10 @@ $(document).ready(function () {
     if (
       $('#js_contactForm input[type="text"]').val() !== "" &&
       $('#js_contactForm input[type="kana"]').val() !== "" &&
-      $("#js_contactForm .el_contact_privacyInput").prop("checked") === true
+      $("#js_contactForm .bl_contact_privacy_input").prop("checked") === true
     ) {
       $submit.prop("disabled", false);
-      // $submit.addClass('-active');
-      // console.log("成功");
+      console.log("成功");
     } else {
       $submit.prop("disabled", true);
     }
@@ -91,16 +90,15 @@ let mySwiper = new Swiper(".swiper", {
 });
 
 // formの入力確認
-let $submit = $("#js-submit");
+let $submit = $("#js_submit");
 $("#js_contactForm input, #js_contactForm textarea").on("change", function () {
   if (
     $('#js_contactForm input[type="text"]').val() !== "" &&
     $('#js_contactForm input[type="email"]').val() !== "" &&
-    $('#js_contactForm textarea[name="entry.1329888499"]').val() !== "" &&
-    $('#js_contactForm input[name="entry.1669214127"]').prop("checked") === true
+    $('#js_contactForm textarea[name="entry.1915977733"]').val() !== "" &&
+    $('#js_contactForm input[name="entry.1276970949"]').prop("checked") === true
   ) {
     $submit.prop("disabled", false);
-    $submit.addClass("-active");
     console.log("成功");
   } else {
     $submit.prop("disabled", true);
